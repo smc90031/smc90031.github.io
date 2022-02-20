@@ -1,0 +1,32 @@
+<!--Created by chencheng on 2017/9/24.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="static/css/2048.css"/>
+    <script type="text/javascript" src="./static/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="static/js/2048.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="left">
+           <a href="javascript:musicSwitch();" id="musicSwitch">关闭音效</a>
+           <a href="javascript:preOperate();" id="preOperate">上一步</a>
+           <a href="javascript:reStart();" id="reStart">重新开始</a>
+       </div>
+       <div class="right">
+           <div id="logo">2048</div>
+           <p>得分：<span id="score">0</span></p>
+           <p>最高得分：<span id="heightScore">0</span></p>
+       </div>
+    </div>
+
+    <div  id="main"></div>
+
+    <div id="message"><p>玩法：滑动屏幕，使数字移动，合并出更大的数字</p></div>
+    <audio id="randomMusic"   src="./static/img/013.WAV"></audio>
+    <audio id="mergeMusic"  src="./static/img/Tethys.wav"></audio>
+</body>
+</html>

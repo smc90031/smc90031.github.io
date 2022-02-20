@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+
+    #header{
+        width: 320px;
+        margin:5px auto;
+    }
+    #main{
+        width: 320px;
+        height: 320px;
+        border-radius: 8px;
+    }
+
+    #main div{
+        width: 67px;
+        height: 67px;
+        line-height: 67px;
+        border-radius: 6px;
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+    #header{
+        width: 360px;
+        margin:10px auto;
+    }
+
+    #main{
+        width: 360px;
+        height: 360px;
+        border-radius: 8px;
+    }
+
+    #main div{
+        width: 77px;
+        height: 77px;
+        line-height: 77px;
+        border-radius: 6px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px)  {
+    #header{
+        width: 400px;
+        margin:10px auto;
+    }
+    #main{
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    #main div{
+        width: 87px;
+        height: 87px;
+        line-height: 87px;
+        border-radius: 8px;
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px)  {
+    #header{
+        width: 400px;
+        margin:10px auto;
+    }
+    #main{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    #main div{
+        width: 112px;
+        height: 112px;
+        line-height: 107px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px)  {
+    #header{
+        width: 400px;
+        margin:10px auto;
+    }
+    #main{
+        width: 600px;
+        height: 600px;
+        border-radius: 15px;
+    }
+
+    #main div{
+        width: 137px;
+        height: 137px;
+        line-height: 137px;
+        border-radius: 15px;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 700px)  {
+    #header{
+        width: 400px;
+        margin:10px auto;
+    }
+    #main{
+        width: 700px;
+        height: 700px;
+        border-radius: 20px;
+    }
+
+    #main div{
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+        border-radius: 20px;
+        font-size: 50px;
+    }
+}
+
+body{
+    margin: 0px 0px;
+}
+
+#header{
+    height: 150px;
+    text-align:center;
+    font-family:Arial;
+    text-decoration:none;
+}
+#header .left{
+    width: 100px;
+    height: 150px;
+    font-weight:bold;
+    color: white;
+    margin: auto;
+    float: left;
+    padding: 0px 5px;
+}
+
+#main{
+    margin: auto;
+    background-color: #bbada0;
+}
+
+#main div{
+    background-color: #ccc0b3;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: arial;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#header .left #musicSwitch{
+    display:block;
+    width:80px;
+    height: 14px;
+    line-height: 14px;
+    padding:5px 5px;
+    background-color:#8f7a66;
+    color:white;
+    border-radius:6px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration:none;
+}
+#header .left #preOperate{
+    display:block;
+    width:80px;
+    height: 14px;
+    line-height: 14px;
+    padding:5px 5px;
+    background-color:#8f7a66;
+    color:white;
+    border-radius:6px;
+    font-size: 15px;
+    text-decoration:none;
+    margin-top: 32px;
+}
+#header .left #reStart{
+    display:block;
+    width:80px;
+    height: 14px;
+    line-height: 14px;
+    padding:5px 5px;
+    background-color:#8f7a66;
+    color:white;
+    border-radius:6px;
+    font-size: 15px;
+    text-decoration:none;
+    margin-top: 30px;
+}
+
+
+#header .left #newgamebutton:hover{background-color:#9f8b77;}
+#header .left #noMuisc:hover{background-color: #9F8B77;}
+
+#header .right{
+    height: 150px;
+    padding: 0px 5px;
+    float: left;
+    width: 60%;
+    margin: auto;
+}
+
+#header .right #logo{
+    font-weight:bold;
+    font-size:36px ;
+    display: block;
+    width: 120px;
+    background-color:gold;
+    color: white;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
+#header .right p{
+    font-weight:bold;
+    font-size:22px ;
+    height: 20%;
+    border-radius: 8px;
+    background-color: #CCC0B3;
+}
+
+#message p{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#main .d2 {
+    color: #7c736a;
+    background: #eee4da;
+}
+#main .d4 {
+    color: #7c736a;
+    background: #ede0c8;
+}
+#main .d8 {
+    color: #fff7eb;
+    background: #f2b179;
+}
+#main .d16 {
+    color:#fff7eb;
+    background:#f59563;
+}
+#main .d32 {
+    color:#fff7eb;
+    background:#f67e5f;
+}
+#main .d64 {
+    color:#fff7eb;
+    background:#f65e3b;
+}
+#main .d128 {
+    color:#fff7eb;
+    background:#edcf72;
+}
+#main .d256 {
+    color:#fff7eb;
+    background:#edcc61;
+}
+#main .d512 {
+    color:#fff7eb;
+    background-color: yellow;
+}
+#main .d1024 {
+    color:#fff7eb;
+    background:#33b5e5;
+    font-size: 20px;
+}
+#main .d2048 {
+    color:#fff7eb;
+    background:#09c;
+    font-size: 20px;
+}
+#main .d4096 {
+    color:#fff7eb;
+    background:#a6c;
+    font-size: 20px;
+}
+#main .d8192 {
+    color:#fff7eb;
+    background:#93c;
+    font-size: 20px;
+}
+#main .d16384 {
+    color:#fff7eb;
+    background:#93c;
+    font-size: 20px;
+}
+
